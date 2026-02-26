@@ -9,7 +9,7 @@ public class Unit1 {
 	}
  /**
   * Method 1: Returns the sum of two integers.
-  * TODO: Implement this method to return the sum of the two integer parameters a and b.
+  * //TODO: Implement this method to return the sum of the two integer parameters a and b.
   *
   * @param a the first integer
   * @param b the second integer
@@ -17,7 +17,7 @@ public class Unit1 {
   */
  public static int addIntegers(int a, int b) {
      // Your code here
-     return 0; // Placeholder return
+     return a+b; // Placeholder return
  }
 
  /**
@@ -29,7 +29,8 @@ public class Unit1 {
   */
  public static int castDoubleToInt(double value) {
      // Your code here
-     return 0; // Placeholder return
+     int newvalue = (int)value;
+     return newvalue; // Placeholder return
  }
 
  /**
@@ -40,8 +41,11 @@ public class Unit1 {
   * @return true if value is true, false otherwise
   */
  public static boolean isTrue(boolean value) {
-     // Your code here
-     return false; // Placeholder return
+     if (value==true){
+        return true;
+     } else {
+        return false;
+     } // Placeholder return
  }
 
  /**
@@ -51,8 +55,8 @@ public class Unit1 {
   * @return Integer.MAX_VALUE minus one
   */
  public static int maxValueMinusOne() {
-     // Your code here
-     return 0; // Placeholder return
+     // 
+     return Integer.MAX_VALUE-1; // Placeholder return
  }
 
  /**
@@ -65,6 +69,6 @@ public class Unit1 {
   */
  public static double multiplyIntAndDouble(int a, double b) {
      // Your code here
-     return 0.0; // Placeholder return
+     return a*b; // Placeholder return
  }
 }
